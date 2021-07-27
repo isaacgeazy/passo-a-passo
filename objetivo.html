@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Objetivo</title>
     <style>
-div{
+div#box{
    
    background-color: rgb(43, 38, 38);
    text-align: center;
@@ -16,8 +16,10 @@ div{
    padding: 0.5%;
    height: 150px;
    width: 1200px;
-   font-style:normal;
+   font: bold 15px arial, sans-serif;
    border-radius: 5px;
+   box-shadow:2px 2px 0 0 rgb(100, 94, 94) ;
+   
    
 }
 h1{
@@ -26,26 +28,40 @@ h1{
  
 }
 body{
-   background-color: royalblue;
+   background-color: rgb(101, 102, 105);
 
 }
 input{
-   
-    color: royalblue;
-    
-    
+background: #27292b;
+
+color: white;
+
+border-style: outset;
+
+border-color: #3a3e41;
+
+font: bold 15px arial, sans-serif;
+
+text-shadow:none;
+
+border-radius: 3px;
 }
+
     </style>
 </head>
 <body>
     <h1>Passo-a-passo para se tornar um Dev</h1> 
-<div>
+<div id="box">
     <p>Já aprendeu tudo? Excelente! Parabéns!</p>
     <p>Mas, aprendeu tudo mesmo?</p>
     <p>Você vai estudar durante toda sua vida, não importa a profissão! Porém, você pode ser bem pago por isso!</p>
     <a href="https://www.salario.com.br/estatisticas/cargos-e-salarios-de-ti-tecnologia-da-informacao/">Veja o salário médio de um profissional de TI</a>
     </div>
-    <br>
+    <br> 
+    <center>
     <input type="button" value="Voltar" onclick="window.location.href='dev-web.html'">
+    <input type="button" value="Voltar para o início" onclick="window.location.href='index.html'">
+   </center>
+
 </body>
 </html>
