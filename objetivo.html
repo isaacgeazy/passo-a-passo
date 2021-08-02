@@ -1,67 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Objetivo</title>
     <style>
-div#box{
-   
-   background-color: rgb(43, 38, 38);
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   color: whitesmoke;
-   padding: 0.5%;
-   height: 150px;
-   width: 1200px;
-   font: bold 15px arial, sans-serif;
-   border-radius: 5px;
-   box-shadow:2px 2px 0 0 rgb(100, 94, 94) ;
-   
-   
+         @charset "UTF-8";
+
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-h1{
-    text-align: center;
-    color: whitesmoke;
- 
-}
-body{
-   background-color: rgb(101, 102, 105);
+        div#box {
+            background-color: rgb(211, 211, 211);
+            text-align: center;
+            margin: auto;
+            color: rgb(19, 15, 15);
+            padding: 2%;
+            width: 60%;
+            font: bold 15px arial, sans-serif;
+            border-radius: 5px;
+            box-shadow: 5px 5px 0 rgb(65, 62, 62);
+        }
 
-}
-input{
-background: #27292b;
 
-color: white;
+        body {
+            background-image: linear-gradient(to right, #F2F2EB, #F2C230, #F2B138, #D9AE79, #8C857B);
 
-border-style: outset;
+        }
 
-border-color: #3a3e41;
+        div#input {
+            text-align: center;
 
-font: bold 15px arial, sans-serif;
 
-text-shadow:none;
+        }
 
-border-radius: 3px;
-}
+        .btnv {
+            background: rgb(211, 211, 211);
+            color: rgb(3, 3, 3);
+            border-style: outset;
+            border-color: #3a3e41;
+            font: bold 15px arial, sans-serif;
+            text-shadow: none;
+            box-shadow: 3px 3px 0 rgb(65, 62, 62);
+        }
 
+        .btnvi {
+
+            background: rgb(211, 211, 211);
+            color: rgb(0, 0, 0);
+            border-style: outset;
+            border-color: #3a3e41;
+            font: bold 15px arial, sans-serif;
+            text-shadow: none;
+            box-shadow: 3px 3px 0 rgb(65, 62, 62);
+        }
     </style>
-</head>
-<body>
-    <h1>Passo-a-passo para se tornar um Dev</h1> 
-<div id="box">
-    <p>Já aprendeu tudo? Excelente! Parabéns!</p>
-    <p>Mas, aprendeu tudo mesmo?</p>
-    <p>Você vai estudar durante toda sua vida, não importa a profissão! Porém, você pode ser bem pago por isso!</p>
-    <a href="https://www.salario.com.br/estatisticas/cargos-e-salarios-de-ti-tecnologia-da-informacao/">Veja o salário médio de um profissional de TI</a>
-    </div>
-    <br> 
-    <center>
-    <input type="button" value="Voltar" onclick="window.location.href='dev-web.html'">
-    <input type="button" value="Voltar para o início" onclick="window.location.href='index.html'">
-   </center>
 
+</head>
+
+<body>
+    <div id="box">
+        <h1>Passo-a-passo para se tornar um Dev</h1>
+        <p>Já aprendeu tudo? Excelente! Parabéns!</p>
+        <p>Mas, aprendeu tudo mesmo?</p>
+        <p>Você vai estudar durante toda sua vida, não importa a profissão! Porém, você pode ser bem pago por isso!</p>
+        <a href="https://www.salario.com.br/estatisticas/cargos-e-salarios-de-ti-tecnologia-da-informacao/">Veja o
+            salário médio de um profissional de TI</a>
+    </div>
+    <br>
+    <div id="input">
+        <input class="btnv" type="button" value="Voltar" onclick="window.location.href='dev-web.html'">
+        <input class="btnvi" type="button" value="Voltar para o início" onclick="window.location.href='index.html'">
+    </div>
 </body>
+
 </html>

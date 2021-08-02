@@ -1,21 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Web</title>
+    <style>
+        @charset "UTF-8";
+
+        * {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        body {
+            color: rgb(255, 255, 255);
+            background-image: linear-gradient(to right, #232526, #133B40, #255459, #728A8C, #A6746F);
+            text-align: center;
+        }
+
+        div#box {
+            width: 600px;
+            margin: auto;
+            background-color: rgb(48, 47, 47);
+            padding: 1%;
+
+        }
+
+
+        .cor {
+            color: rgb(247, 82, 6);
+            text-align: center;
+        }
+
+        .title {
+
+            color: rgb(247, 82, 6)
+        }
+
+        .btnv {
+
+            background: #000000;
+            color: rgb(247, 82, 6);
+            border-color: rgb(247, 82, 6);
+
+
+        }
+
+        .btnvi {
+            background: #000000;
+            color: rgb(247, 82, 6);
+            border-color: rgb(247, 82, 6);
+
+        }
+
+        .chere {
+
+            background: #000000;
+            color: rgb(247, 82, 6);
+            border-color: rgb(247, 82, 6);
+
+        }
+    </style>
+
 </head>
+
 <body>
-    <h1>Passo-a-passo para se tornar um Dev</h1>
-    <p>É hora de aprender a programar para a Web!</p>
-    <img src="https://raw.githubusercontent.com/ermogenes/aulas-programacao-csharp/master/content/logo-dev-web.png" alt="logo dev web">
-    <p>Depois de completar essas fases, você poderá ver o que te espera ao longo da jornada!</p>
-    <p>Para prosseguir: <input type="button" value="Clique aqui" onclick="window.location.href='objetivo.html'"></p>  
+
+    <div id="box">
+        <h1 class="title">Passo-a-passo para se tornar um Dev</h1>
+        <p>É hora de aprender a programar para a Web!</p>
+        <img src="https://raw.githubusercontent.com/ermogenes/aulas-programacao-csharp/master/content/logo-dev-web.png"
+            alt="logo dev web">
+        <p>Depois de completar essas fases, você poderá ver o que te espera ao longo da jornada!</p>
+        <p>Para prosseguir: <input class="chere" type="button" value="Clique aqui"
+                onclick="window.location.href='objetivo.html'"></p>
+        <br>
+
+        <input class="btnv" type="button" value="Voltar" onclick="window.location.href='dev-cs.html'">
+        <input class="btnvi" type="button" value="Voltar ao início" onclick="window.location.href='index.html'">
+    </div>
     <br>
-    <input type="button" value="Voltar" onclick="window.location.href='dev-cs.html'">
-    <input type="button" value="Voltar ao início" onclick="window.location.href='index.html'">
-    <hr />
-    <a href="https://github.com/isaacgeazy">&copy; Isaac Rocha</a> - Mongaguá - 2021
+
+    <p><a class="cor" href="https://github.com/isaacgeazy">&copy; Isaac Rocha</a> | Mongaguá | 2021</p>
+
 </body>
+
 </html>

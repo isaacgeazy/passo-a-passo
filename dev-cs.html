@@ -1,18 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>C#</title>
+    <style>
+        @charset "UTF-8";
+
+        * {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        body {
+            background-image: linear-gradient(to left, #FFFFFF, #B792DE, #E3ADF5, #DE92DC, #FFA8D2);
+        }
+
+        main {
+            background-color: rgb(247, 247, 247);
+            margin: auto;
+            width: 600px;
+            text-align: center;
+            padding: 2%;
+
+
+        }
+        
+
+
+        .btnv {
+
+            background: #000000;
+            color: rgb(255, 255, 255);
+            border-style: solid;
+            border-color: #fdfdfd;
+            text-shadow: coral;
+            border-radius: 3px;
+        }
+
+        .github {
+            text-align: center;
+        }
+        .image{
+
+            max-width: 100%;
+        
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Passo-a-passo para se tornar um Dev</h1>
-    <img src="https://raw.githubusercontent.com/ermogenes/aulas-programacao-web/master/content/logo-dev-cs.png" alt="Logo dev cs">
-    <p>Agora, <a href="dev-web.html">Continue seus estudos</a></p>
-    <br>
-    <input type="button" value="Voltar" onclick="window.location.href='index.html'" >
-    <hr />
-     <a href="https://github.com/isaacgeazy">&copy; Isaac Rocha</a> - Mongaguá - 2021
+    <main>
+        <h1>Passo-a-passo para se tornar um Dev</h1>
+        <img class="image" src="https://raw.githubusercontent.com/ermogenes/aulas-programacao-web/master/content/logo-dev-cs.png"
+            alt="Logo dev cs">
+        <p>Agora, <a href="dev-web.html">Continue seus estudos</a></p>
+        <br>
+        <input class="btnv" type="button" value="Voltar" onclick="window.location.href='index.html'">
+    </main>
+    <p class="github"><a href="https://github.com/isaacgeazy">&copy; Isaac Rocha</a> | Mongaguá | 2021 </p>
 </body>
+
 </html>

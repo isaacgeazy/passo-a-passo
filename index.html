@@ -1,21 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Web</title>
-    
-</head>
-<body>
-    <h1>Passo-a-passo para se tornar um Dev</h1>
-    <p>Pelo visto se interessou pelo assunto. Gostaria de se tornar um Dev? </p>
-      <p>Lembrando que o interesse é o primeiro passo. Agora posso te ajudar a dar os passos restantes, aceita? </p>
-<br>
-<p>Vamos lá! </p>
+    <style>
+        @charset "UTF-8";
 
-<input type="button" value="Começar" onclick="window.location.href='dev-cs.html'">
-<hr />
- <a href="https://github.com/isaacgeazy">&copy;Isaac Rocha</a> - Mongaguá - 2021
+        * {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        body{
+            background-image: linear-gradient(to right, #2C5F72, #5C9396, #F2B8A2, #F28C8D, #F15944);
+        }
+        div#box {
+
+            background-color: cornflowerblue;
+            width: 60%;
+            text-align: center;
+            margin: auto;
+            padding: 1%;
+
+        }
+
+        .github {
+
+            text-align: center;
+        }
+
+        .title {
+            color: rgb(18, 2, 161);
+            text-align: center;
+        }
+        .btnv {
+         background-color: rgb(62, 34, 219);
+         color: whitesmoke;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="box">
+        <h1 class="title">Passo-a-passo para se tornar um Dev</h1>
+        <p>Pelo visto se interessou pelo assunto. Gostaria de se tornar um Dev? </p>
+        <p>Lembrando que o interesse é o primeiro passo. Agora posso te ajudar a dar os passos restantes, aceita? </p>
+        <br>
+        <p>Vamos lá! </p>
+
+        <input class="btnv" type="button" value="Começar" onclick="window.location.href='dev-cs.html'">
+    </div>
+    <p class="github"><a href="https://github.com/isaacgeazy">&copy;Isaac Rocha</a> | Mongaguá | 2021</p>
 </body>
+
 </html>
