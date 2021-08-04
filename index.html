@@ -13,9 +13,10 @@
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
 
-        body{
+        body {
             background-image: linear-gradient(to right, #2C5F72, #5C9396, #F2B8A2, #F28C8D, #F15944);
         }
+
         div#box {
 
             background-color: cornflowerblue;
@@ -35,9 +36,20 @@
             color: rgb(18, 2, 161);
             text-align: center;
         }
+
         .btnv {
-         background-color: rgb(62, 34, 219);
-         color: whitesmoke;
+            background-color: rgb(62, 34, 219);
+            color: whitesmoke;
+        }
+
+        .btnv:hover {
+
+            box-shadow:
+                1px 1px #5518e4,
+                2px 2px #5518e4,
+                3px 3px #5518e4;
+            -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
         }
     </style>
 
@@ -53,7 +65,8 @@
 
         <input class="btnv" type="button" value="Começar" onclick="window.location.href='dev-cs.html'">
     </div>
-    <p class="github"><a href="https://github.com/isaacgeazy" target="_blank">&copy;Isaac Rocha</a> | Mongaguá | 2021</p>
+    <p class="github"><a href="https://github.com/isaacgeazy" target="_blank">&copy;Isaac Rocha</a> | Mongaguá | 2021
+    </p>
 </body>
 
 </html>
